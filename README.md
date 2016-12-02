@@ -38,7 +38,7 @@ Tasks left to be completed (displayed in relative chains):
 
 - [ ] Create necesssary base classes and interfaces to create an Item Class
 
-      <*> Player HAS-A Team, Player HAS-A bag, Player HAS-A Pokedex (might get away with keeping latter as separate global object).
+        <*> Player HAS-A Team, Player HAS-A bag, Player HAS-A Pokedex (might get away with keeping latter as separate global object).
   
 
 ### Implement team:
@@ -81,8 +81,8 @@ Tasks left to be completed (displayed in relative chains):
 - [ ] Should be able to discover items and interact with NPCs
 
 
-    [...] Implement Options Module:
+        [...] Implement Options Module:
 
-    <+> Allow users to configure UI styling:
+        <+> Allow users to configure UI styling:
 
-    <*> IGNORE FOR NOW
+        <*> IGNORE FOR NOW
