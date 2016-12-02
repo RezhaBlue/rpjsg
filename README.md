@@ -1,6 +1,6 @@
 # rpjsg
 
-This is an effort to create a simple rpg in js based on pokemon mechanics
+This is an effort to create a simple (semi text-based adventure) rpg in js based on pokemon mechanics
 
 Tasks left to be completed (displayed in relative chains):
 
