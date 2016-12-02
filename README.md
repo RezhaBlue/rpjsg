@@ -7,14 +7,14 @@ Finish Implementing Bag Module:
 
 <+> Implement Add, Remove, Move, and Sort Items in respective Category List in Bag: 
 
-  <-> changes should be reflected and permanent in var bag and in resulting html
+    <-> changes should be reflected and permanent in var bag and in resulting html
 
 <+> Implement Exiting Bag Module:
 
-  <-> again, all changes before leaving should be saved without prompt
+    <-> again, all changes before leaving should be saved without prompt
 
-(!) Future Implementation: use function and hold function for team
-    <*> Keep in mind later implementation of bag must be simultaneously accessible with team to easily move/use items to and from team
+( ! ) Future Implementation: use function and hold function for team
+      <*> Keep in mind later implementation of bag must be simultaneously accessible with team to easily move/use items to and from team
   
 
 Implement Item Class:
@@ -37,16 +37,16 @@ Implement Player:
 
 <-> Create necesssary base classes and interfaces to create an Item Class
 
-  <*> Player HAS-A Team, Player HAS-A bag, Player HAS-A Pokedex (might get away with keeping latter as separate global object).
+    <*> Player HAS-A Team, Player HAS-A bag, Player HAS-A Pokedex (might get away with keeping latter as separate global object).
   
 
 Implement team:
 
   <-> Same functions as Bag but structure is one list with 6 items max
   
-  <*> Keep in mind later implementations of team must be simultaneously accessible with bag to easily move/use items to and from team
+    <*> Keep in mind later implementations of team must be simultaneously accessible with bag to easily move/use items to and from team
   
-  <*> Should eventually be accessible via menu
+    <*> Should eventually be accessible via menu
 
 
 Implement PC:
@@ -60,7 +60,7 @@ Implement Pokedex Module:
 
 <+> Implement scrolling, sorting, searching, and selecting pokemon in Pokedex List:
 
-  <-> Similar function and structure to Category lists in bag
+    <-> Similar function and structure to Category lists in bag
 
 
 Implement Navigation:
@@ -84,4 +84,4 @@ Implement Event encounters:
 
 <+> Allow users to configure UI styling:
 
-  <*> IGNORE FOR NOW
+    <*> IGNORE FOR NOW
