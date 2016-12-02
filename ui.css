@@ -1,0 +1,30 @@
+#dm-bag{
+    display: none;
+}
+
+/* #dm-bag:focus{
+    display: run-in;
+} */
+
+.itmframe {
+    font-family: Verdana;
+    font-weight: 700;
+    width: 15%;
+    border-style: double;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.menuOpt {
+    font-family: Lucida Console;
+    font-size: 20px;
+    font-weight: 900;
+    width: 15%;
+    padding: 0px;
+    margin: 0px;
+    list-style:none outside;
+}
+
+.menuOpt:focus{
+    color: red;
+}
