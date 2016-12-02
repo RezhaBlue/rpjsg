@@ -4,7 +4,7 @@ This is an effort to create a simple rpg in js based on pokemon mechanics
 
 Tasks left to be completed (displayed in relative chains):
 
-###### Finish Implementing Bag Module:
+### Finish Implementing Bag Module:
 
 - [ ] Implement Add, Remove, Move, and Sort Items in respective Category List in Bag: 
   - [ ] changes should be reflected and permanent in var bag and in resulting html
@@ -18,7 +18,7 @@ Tasks left to be completed (displayed in relative chains):
       <*> Keep in mind later implementation of bag must be simultaneously accessible with team to easily move/use items to and from team
   
 
-###### Implement Item Class:
+### Implement Item Class:
 
 - [ ] Create necesssary base classes and interfaces to create an Item Class
 
@@ -29,19 +29,19 @@ Tasks left to be completed (displayed in relative chains):
 - [ ] Replace hard coded String items in var bag with items of respective classes
 
 
-###### Implement Pokemon Class:
+### Implement Pokemon Class:
 
 - [ ] Similar approach to Items but many more layers of details
 
 
-###### Implement Player:
+### Implement Player:
 
 - [ ] Create necesssary base classes and interfaces to create an Item Class
 
-    <*> Player HAS-A Team, Player HAS-A bag, Player HAS-A Pokedex (might get away with keeping latter as separate global object).
+      <*> Player HAS-A Team, Player HAS-A bag, Player HAS-A Pokedex (might get away with keeping latter as separate global object).
   
 
-###### Implement team:
+### Implement team:
 
   - [ ] Same functions as Bag but structure is one list with 6 items max
   
@@ -50,33 +50,33 @@ Tasks left to be completed (displayed in relative chains):
         <*> Should eventually be accessible via menu
 
 
-###### Implement PC:
+### Implement PC:
 
   - [ ] Similar to team in function except cannot be called into battle or accessed from menu.
   
   - [ ] Large Scale: no max limit (consider 1000 hard limit if needed).
 
 
-###### Implement Pokedex Module:
+### Implement Pokedex Module:
 
 - [ ] Implement scrolling, sorting, searching, and selecting pokemon in Pokedex List:
 
   - [ ] Similar function and structure to Category lists in bag
 
 
-###### Implement Navigation:
+### Implement Navigation:
 
 - [ ] Need to build levels/maps and ways to traverse
 
 - [ ] Implement monster encounters
 
 
-###### Implement Combat:
+### Implement Combat:
 
 - [ ] Turn based with simplified equations
 
 
-###### Implement Event encounters:
+### Implement Event encounters:
 
 - [ ] Should be able to discover items and interact with NPCs
 
