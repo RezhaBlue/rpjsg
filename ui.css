@@ -1,18 +1,18 @@
-#dm-bag{
-    display: none;
+#demo {
+  /*silver:#C0C0C0, pastel green:#DAF7A6*/
+  display: inline-block;
+  background-color: #DAF7A6
 }
 
-/* #dm-bag:focus{
-    display: run-in;
-} */
-
-.itmframe {
-    font-family: Verdana;
-    font-weight: 700;
-    width: 15%;
+#dm-menu {
+    display: inline-block;
     border-style: double;
     border-width: 10px;
-    padding: 20px;
+    padding: 5px;
+}
+
+ul#menu{
+  padding: 0;
 }
 
 .menuOpt {
@@ -27,4 +27,105 @@
 
 .menuOpt:focus{
     color: red;
+}
+
+
+#dm-bag{
+    display: none;
+}
+
+ul#bag{
+  list-style:none;
+  min-width: 168px;
+  padding: 0;
+}
+
+
+ul#bag > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+    zoom:1;
+    *display:inline;
+    /* this fix is needed for IE7- */
+
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin-left: 0;
+}
+
+.bagOpt:focus{
+  border:solid #dba6f7 2px;
+  background-color: #dba6f7;
+}
+
+/* #dm-bag:focus{
+    display: run-in;
+} */
+
+#bag-med {
+    background-image: url("http://cdn.bulbagarden.net/upload/0/02/Bag_Medicine_pocket_icon.png");
+}
+#bag-item {
+    background-image: url("http://cdn.bulbagarden.net/upload/e/eb/Bag_Pok%C3%A9_Balls_pocket_icon.png");
+}
+#bag-tm {
+    background-image: url("http://cdn.bulbagarden.net/upload/6/64/Bag_TMs_and_HMs_pocket_icon.png");
+}
+#bag-ber {
+    background-image: url("http://cdn.bulbagarden.net/upload/1/1d/Bag_Berries_pocket_icon.png");
+}
+#bag-key {
+    background-image: url("http://cdn.bulbagarden.net/upload/9/99/Bag_Key_items_pocket_icon.png");
+}
+#bag-fsp {
+    background-image: url("http://cdn.bulbagarden.net/upload/b/b7/Bag_Items_pocket_icon.png");
+}
+
+.bagOpt ul{
+  display: none;
+  /*pos keeps icons on same level*/
+  position: absolute;
+  list-style:none;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.bagOpt:focus ul{
+  display: block;
+}
+
+.bagOpt li{
+  display: none;
+  list-style:none;
+  font-size: 1.5em;
+  padding: 5px;
+  width: 100%;
+}
+
+.bagOpt:focus li{
+  display: block;
+}
+
+.medOpt {
+  background-color: Orange;
+}
+.itemOpt {
+  background-color: Goldenrod;
+}
+.tmOpt {
+  background-color: yellowgreen;
+}
+.berOpt {
+  background-color: forestgreen;
+}
+.keyOpt {
+  background-color: blueviolet;
+}
+.fspOpt {
+  background-color: pink;
+}
+
+/* .medOpt,.itemOpt,.tmOpt,.berOpt,.keyOpt,.fspOpt */.itmframe:focus {
+  background-color: white;
 }
